@@ -1,6 +1,6 @@
 
 
-# sed examples
+`sed examples`
 
 ```
 # sed '/one/p' 1.txt
