@@ -26,5 +26,5 @@ three is my fate
 two is my thought
 ```
 ::: warning
-* statement * 
+*statement* 
 :::
