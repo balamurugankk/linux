@@ -1,0 +1,4 @@
+awk -F' ' '{ print $1}' 2.txt
+
+cut -d' ' -f 1 2.txt
+cut -c 5 2.txt
