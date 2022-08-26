@@ -1,0 +1,51 @@
+# export PS1="\D{%d-%b %T} \W $ "
+
+# export TERM=xterm-color
+# export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
+# export CLICOLOR=1
+# export LSCOLORS=ExFxCxDxBxegedabagacad
+
+# function _psjava {
+#   ps -ef | grep java ;
+# }
+
+# function _psjava_id {
+#   ps -ef | grep java | awk '{ print $2 }' ;
+# }
+
+# function _psjava_id_killall {
+#   ps -ef | grep java | awk '{ print $2 }' | xargs kill -9 ;
+# }
+
+# function _curl_sample {
+#   curl -vks https://reqres.in/api/users?page=2 | jq . ;
+# }
+
+# function _date {
+#
+#   echo "time          : `date` "
+#   echo "eastern time  : `env TZ=US/Eastern date` "
+#   echo "central time  : `env TZ=US/Central date` "
+#   echo "utc time      : `date -u` "
+#   echo "epoch time    : `date +%s` "
+# }
+
+# export KAFKA_BASE_PATH='/Users/sweethome/Documents/base_utils/kafka_2.12-2.5.0'
+
+# function _set_kafka {
+#   cd /Users/sweethome/Documents/base_utils/kafka_2.12-2.5.0
+# }
+
+# funcion _start_zookeeper_kafka_local {
+#
+#    ${KAFKA_BASE_PATH}/bin/zookeeper-server-start.sh ${KAFKA_BASE_PATH}/config/zookeeper.properties
+#    ${KAFKA_BASE_PATH}/bin/kafka-server-start.sh ${KAFKA_BASE_PATH}/config/server.properties
+# }
+
+# function _create_topic_local {
+#    ${KAFKA_BASE_PATH}/bin/kafka-topics.sh --topic $1 --create --partitions 1 --replication-factor 1 --zookeeper localhost:2181
+# }
+
+# function _list_topic_local {
+#   ${KAFKA_BASE_PATH}/bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+# }

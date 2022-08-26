@@ -1,0 +1,11 @@
+# export PATH="/usr/local/bin:$PATH"
+
+
+# JAVA_HOME_8=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+# alias java8='export JAVA_HOME=JAVA_HOME_8'
+
+# JAVA_HOME_11=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+# alias java11='export JAVA_HOME=JAVA_HOME_11'
+
+# JAVA_HOME_17=/Library/Java/JavaVirtualMachines/openjdk-17.0.2.jdk/Contents/Home
+# alias java17='export JAVA_HOME=JAVA_HOME_17'
